@@ -7,7 +7,7 @@ html {
 }
 .navbar-light .navbar-brand {
   color: #fff;
-  font-size: 65px;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -24,7 +24,7 @@ html {
 }
 .navbar-toggler {
   padding: 1px 5px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 0.3;
   background: #fff;
 }
@@ -33,7 +33,7 @@ html {
 }
 
 .navbar-nav .nav-item {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 25px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

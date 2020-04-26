@@ -1,4 +1,4 @@
-html { 
+body { 
     background: url('https://live.staticflickr.com/6016/6019829562_c0b3c45e13_k.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,7 +7,7 @@ html {
   }
   .navbar-light .navbar-brand {
     color: #fff;
-    font-size: 65px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -24,7 +24,7 @@ html {
   }
   .navbar-toggler {
     padding: 1px 5px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 0.3;
     background: #fff;
   }
@@ -33,7 +33,26 @@ html {
   }
   
   .navbar-nav .nav-item {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 25px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
+  .paragraph {
+      background-color: violet;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 5%;
+        border: 1px solid black;
+        opacity: 0.3;
+        filter: alpha(opacity=60);
+  }
+
+.paragraph p {
+    color: #fff;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 1.8em;
+    opacity: 1.0;
+}
