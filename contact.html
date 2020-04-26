@@ -42,26 +42,25 @@
 </nav>
   <body>
       <div class="paragraph">
-        <form class="container">
+        <form class="container" action="mailto:satvir@pdx.edu?subject=Email from portfolio" method="post" enctype="text/plain">
             <h1 id="header">Contact Form</h1>
             <div class="form-group">
               <label for="name">Name:</label>
-              <input type="text" class="form-control" id="name" aria-describedby="Name field">
+              <input name="name" type="text" class="form-control" id="name" aria-describedby="Name field">
             </div>
             <div class="form-group">
               <label for="inputEmail">Email:</label>
-              <input type="email" class="form-control" id="email">
+              <input name="email" type="email" class="form-control" id="email">
             </div>
             <div class="form-group">
               <label for="inputComment">Submit your message:</label>
-              <textarea class="form-control" id="textarea1" rows="3"></textarea>
+              <textarea name="comments" class="form-control" id="textarea1" rows="3"></textarea>
             </div>
             <div class="form-group">
-            <button type="button" class="btn btn-primary" id="firstbutton" style="width: 49.5%">Submit</button>
-            <button type="button" class="btn btn-secondary" id="secondbutton" style="width: 49.5%">Reset</button>
+            <button type="submit" name="submit" class="btn btn-primary" id="firstbutton" style="width: 49.5%">Submit</button>
+            <button type="reset" name="reset" class="btn btn-secondary" id="secondbutton" style="width: 49.5%">Reset</button>
             </div>
           </form>
-    </div>
-    
+        </div>
   </body>
 </html>
