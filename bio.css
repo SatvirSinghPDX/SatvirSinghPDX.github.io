@@ -38,14 +38,13 @@ body {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   .paragraph {
-      background-color: violet;
+        background-color: rgb(238, 130, 238, 0.2);
         margin-right: 10%;
         margin-left: 10%;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-top: 5%;
         border: 1px solid black;
-        opacity: 0.3;
         filter: alpha(opacity=60);
   }
 
@@ -53,6 +52,6 @@ body {
     color: #fff;
     padding-right: 10%;
     padding-left: 10%;
-    font-size: 1.8em;
-    opacity: 1.0;
+    font-size: 1.5em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
